@@ -23,6 +23,7 @@ HopefildModel Prensentation
       1. Synchron und asynchrone Aktualisierung
       2. Cross Talk Term
       3. Schritt-Fehler. 
+      4. Im fall von H(Hopefield): H wird immer kleiner bei Spin Umtauschung oder bleibt so. Gespeicherte Patern können keine Attraktor sein, Misch-(Schein-)zustände
 4. Stochastic Dynmaic:
    1. Order Paramter
    2. MFT->Verschiedene Phasen
