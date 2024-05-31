@@ -6,7 +6,7 @@ L = 100  # Gittergröße
 T = 2.0  # Temperatur
 J = 1.0  # Kopplungskonstante
 k_B = 1.0  # Boltzmann-Konstante
-n_steps = 10000  # Anzahl der Monte-Carlo-Schritte
+n_steps = 1000  # Anzahl der Monte-Carlo-Schritte
 
 # Initialisiere das Gitter mit zufälligen Spins
 spins = np.random.choice([-1, 1], size=(L, L))
@@ -48,6 +48,7 @@ axs[1].set_title('Endzustand')
 # Plot der Energieänderungen
 cax = axs[2].imshow(delta_E_matrix, cmap='coolwarm')
 axs[2].set_title('Energieänderungen')
+
 fig.colorbar(cax, ax=axs[2], orientation='vertical')
 
 plt.show()
